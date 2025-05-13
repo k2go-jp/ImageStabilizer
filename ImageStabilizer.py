@@ -313,9 +313,6 @@ class Stabilizer():
         self.writer.release()
 
 def main(argv):
-    #----
-    # https://qiita.com/itoshogo3/items/7a3279668b24008a3761
-    #----
     sys.setrecursionlimit(30000)
     s = Stabilizer()
 
